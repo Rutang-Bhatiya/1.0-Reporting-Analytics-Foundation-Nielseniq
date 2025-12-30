@@ -1,0 +1,25 @@
+
+---
+
+##1.1 – Answers: SQL-Based Analytics Concepts
+The **Answers** software functioned as a SQL-driven analytics layer.  
+Although operated via a UI, the logic closely mapped to SQL concepts.
+
+**Conceptual mapping:**
+- Filters → `WHERE`
+- Facts → `SELECT`
+- Aggregations → `SUM`, `COUNT`
+- Grouping → `GROUP BY`
+- Time logic → calendar joins
+
+**Example (conceptual SQL):**
+```sql
+SELECT
+  market,
+  product_hierarchy,
+  SUM(sales_value) AS sales_value,
+  SUM(volume) AS volume
+FROM sales_data
+WHERE market IN ('Total Market', 'Coop', 'Migros')
+  AND period_type = 'MAT'
+GROUP BY market, product_hierarchy;
