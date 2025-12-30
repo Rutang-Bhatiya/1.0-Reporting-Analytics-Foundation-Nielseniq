@@ -30,7 +30,7 @@ This role required strong discipline, automation, and a deep understanding of bu
 
 ## 📊 End-to-End Data Flow
 
-![End-to-End Data Flow](visuals/data-flow-diagram.png)
+![End-to-End Data Flow]
 
 *High-level flow from SQL-based extraction to business insights.*
 
@@ -56,7 +56,7 @@ The output of Answers was always a **raw data extract**, not a formatted report.
 
 Report creation was driven by structured selections that controlled the raw data extract.
 
-![Product Hierarchy Example](visuals/product-hierarchy.png)
+![Product Hierarchy Example]
 
 *Illustrative product hierarchy used for aggregation and roll-ups.*
 
@@ -85,7 +85,7 @@ Report creation was driven by structured selections that controlled the raw data
 
 ## 1.3 Excel RTL Framework & Automation
 
-![Excel RTL Architecture](visuals/rtl-architecture.png)
+![Excel RTL Architecture]
 
 *Conceptual view of the Excel RTL reporting framework.*
 
@@ -106,7 +106,7 @@ The raw output from Answers was fed into **Advanced Excel RTL templates**.
 
 ## 1.4 Analysis & Visualization
 
-![Sample Sales Trend](visuals/sample-sales-trend.png)
+![Sample Sales Trend]
 
 *Example sales trend visualization using dummy data.*
 
