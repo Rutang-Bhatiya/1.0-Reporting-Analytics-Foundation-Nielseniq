@@ -1,4 +1,4 @@
-# Reporting & Analytics Foundation – NielsenIQ  
+# 1.0 Reporting & Analytics Foundation – NielsenIQ  
 **Enterprise Reporting, Automation & SQL-Based Analytics Concepts**
 
 ---
