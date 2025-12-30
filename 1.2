@@ -1,0 +1,50 @@
+# 1.2 Dynamic Selection Logic (Answers)
+
+This section explains how report parameters were dynamically defined in **Answers**, following SQL-based analytical concepts.
+
+The selections below controlled the **raw data extract**, which later fed into Excel RTL templates.
+
+---
+
+## 1.2.1 Market Selection
+Markets were selected dynamically depending on client needs:
+- Total Market
+- Coop
+- Migros
+
+These selections acted as **filter conditions**, similar to SQL `WHERE` clauses.
+
+---
+
+## 1.2.2 Product Selection
+Product selection was one of the most complex components.
+
+Supported selection types:
+- Single products (e.g., ABC)
+- Multi-level product hierarchies
+- Custom hierarchies built dynamically from **thousands of items**
+
+This required:
+- Deep understanding of product taxonomy
+- Correct hierarchy roll-ups
+- Validation to avoid double counting
+
+---
+
+## 1.2.3 Fact Selection
+Facts defined **what metric was being analyzed**:
+- Sales Value
+- Volume
+- Price
+- Market Share
+
+Each fact followed predefined KPI calculation rules to ensure consistency across reports.
+
+---
+
+## 1.2.4 Time Selection
+Time logic supported multiple business calendars:
+- YTD (Year-to-Date)
+- MAT (Moving Annual Total)
+- Month / Year / Week
+- Retail calendars: **4-4-4**
