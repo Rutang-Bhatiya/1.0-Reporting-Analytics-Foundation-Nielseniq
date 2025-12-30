@@ -24,3 +24,9 @@ All examples in this repository use **dummy data** to respect confidentiality.
 This role required strong discipline, automation, and a deep understanding of business logic.
 
 ---
+## 📌 Table of Contents
+- [1.1 Answers – SQL Concepts](1.1)
+- [1.2 Dynamic Selection Logic](#12-dynamic-selection-logic-answers)
+- [1.3 Excel RTL Framework](#13-excel-rtl-framework--automation)
+- [1.4 Analysis & Visualization](#14-analysis--visualization)
+- [1.5 Customer Enablement](#15-customer-enablement--schema-explanation)
